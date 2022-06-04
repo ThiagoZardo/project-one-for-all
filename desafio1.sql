@@ -105,17 +105,19 @@ CREATE TABLE IF NOT EXISTS SpotifyClone.usuarios (
     FOREIGN KEY(id_plano) REFERENCES SpotifyClone.planos(id_plano)
 ) ENGINE=InnoDB;
 
-INSERT INTO SpotifyClone.usuarios (usuario, idade)
-VALUES ("Thati", 23),
-("Cintia", 35),
-("Bill", 20),
-("Roger", 45),
-("Norman", 58),
-("Patrick", 33),
-("Vivian", 26),
-("Carol", 19),
-("Angelina", 42),
-("Paul", 46);
+SELECT * FROM SpotifyClone.planos;
+
+INSERT INTO SpotifyClone.usuarios (usuario, idade, id_plano)
+VALUES ("Thati", 23, 1),
+("Cintia", 35, 4),
+("Bill", 20, 2),
+("Roger", 45, 3),
+("Norman", 58, 3),
+("Patrick", 33, 4),
+("Vivian", 26, 2),
+("Carol", 19, 2),
+("Angelina", 42, 4),
+("Paul", 46, 4);
 
 CREATE TABLE IF NOT EXISTS SpotifyClone.seguidores (
     id_usuario INT,
