@@ -57,7 +57,7 @@ CREATE TABLE IF NOT EXISTS SpotifyClone.musicas (
 
 INSERT INTO SpotifyClone.musicas (musica, id_artista, duracao, id_album)
 VALUES ("Soul For Us", 1, 200, 1),
-("Reflections Of Magic", 1, 203, 1),
+("Reflections Of Magic", 1, 163, 1),
 ("Dance With Her Own", 1, 116, 1),
 ("Troubles Of My Inner Fire", 1, 203, 2),
 ("Time Fireworks", 1, 152, 2),
