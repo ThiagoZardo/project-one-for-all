@@ -6,4 +6,3 @@ INNER JOIN SpotifyClone.planos AS P ON U.id_plano = P.id_plano
 WHERE U.id_plano = 1 || U.id_plano = 3
 GROUP BY M.musica
 ORDER BY M.musica;
-
